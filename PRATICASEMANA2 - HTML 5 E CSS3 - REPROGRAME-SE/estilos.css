@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300&display=swap');
+
+/* CABECALHO */
+
+#cabecalho {
+    background-image: url(img/header.svg);
+    height: 160px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+#tdcabecalho1 {
+    text-align: right;
+    width: 20%;
+    padding-right: 20px;
+
+}
+
+#tdcabecalho2 {
+    width: auto;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    bottom: -20px;
+    font-family: Open Sans;
+    font-weight: bold
+}
+
+#tdcabecalho3 {
+    width: auto;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    top: -20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.circular {
+    border-radius: 50px;
+    height: 80px;
+}
+
+/* FIM_CABECALHO */
+
+/* MENU */
+
+#menuindex {
+    text-align: center;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Caveat;
+    font-size: 30px;
+}
+
+#tdmenu {
+    height: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.botaomenu {
+    text-decoration: none;
+    background-color: #ede1be;
+    border-radius: 10px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.botaomenu:hover {
+    background-color: #405a9c;
+    color: #c5cae2;
+}
+
+.botaomenu1 {
+    text-decoration: none;
+    background-color: #ede1be;
+    border-radius: 10px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.botaomenu1:hover {
+    background-color: black;
+    color: white;
+}
+
+.classtelabotaomenu {
+    background-color: black;
+    color: white;
+}
+
+#linksmenu:link {
+    text-decoration: none;
+}
+
+#linksmenu:visited {
+    text-decoration: none;
+}
+
+/* FIM_MENU */
+
+/* INDEX */
+
+#herosection {
+    text-align: center;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#tbaindex {
+    text-align: left;
+    font-family: Open Sans;
+    padding-bottom: 10px;
+}
+
+#tdindex2 {
+    height: 200px;
+    background-color: #333333;
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    width: 50%;
+    padding-left: 3%;
+    font-family: Caveat;
+}
+
+.classnome {
+    font-family: Open Sans;
+    color: #d7962d;
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+}
+
+.classola {
+    font-size: 25px;
+}
+
+.classcriacao {
+    color: #a4aaca;
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+.imgprincipal {
+    border-radius: 20px;
+    width: 100%;
+}
+
+#tdindex3 {
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+#tdindex4 {
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding-left: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tdindex5 {
+    width: 20%;
+    height: 60px;
+    margin-left: 10%;
+    padding-left: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tdindex6 {
+    width: 80%;
+    height: 60px;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.classlinksindex {
+    text-decoration: none;
+}
+
+#linksindex:link {
+    color: black;
+    text-decoration: none;
+}
+
+#linksindex:visited {
+    color: black;
+}
+
+/* FIM_INDEX */
+
+/* QUEM_SOU */
+
+#tbaminibio {
+    text-align: left;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    border-collapse: separate;
+    font-family: Open Sans;
+    font-size: 20px;
+}
+
+#tdminibio {
+    width: 100%;
+    padding-right: 10%;
+}
+
+#h1minibio {
+    font-size: 50px;
+    line-height: 0;
+}
+
+#tbahabilidades {
+    text-align: left;
+    width: 100%;
+    font-family: Open Sans;
+}
+
+#tbahabdesc {
+    text-align: left;
+    width: 100%;
+    font-family: Open Sans;
+}
+
+#tdh2habilidades {
+    width: 40%;
+    height: 50px;
+    text-align: left;
+    padding-left: 10%;
+}
+
+#tdh2idiomas {
+    width: 40%;
+    height: 50px;
+    text-align: left;
+    padding-right: 10%;
+}
+
+#tdhabilidades {
+    width: 20%;
+    height: 30px;
+    padding-left: 10%;
+    font-size: 20px;
+}
+
+#tdhabilidades2 {
+    width: 30%;
+    height: 30px;
+    font-size: 30px;
+}
+
+#tdidiomas {
+    width: 10%;
+    height: 30px;
+    font-size: 20px;
+}
+
+#tdidiomas2 {
+    height: 30px;
+    font-size: 30px;
+}
+
+#tbaexperiencia {
+    width: 100%;
+    padding-left: 10%;
+    font-family: Open Sans;
+}
+
+#tdexperiencia {
+    width: 90%;
+    height: 40px;
+
+    font-size: 20px;
+}
+
+#tdsubtituexp {
+    width: 90%;
+    font-size: 20px;
+}
+
+#tddata {
+    width: 12%;
+    height: 60px;
+    font-size: 20px;
+}
+
+#tdquemsou8 {
+    width: 70%;
+    font-size: 20px;
+}
+
+
+/* FIM_QUE_SOU */
+
+/* PROJETOS */
+
+#tbadescprojetos {
+    text-align: left;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    border-collapse: separate;
+    font-family: Open Sans;
+    font-size: 20px;
+}
+
+#h1descprojetos {
+    font-size: 50px;
+    line-height: 0;
+}
+
+#tddescprojetos {
+    width: 100%;
+    padding-right: 10%;
+}
+
+#tbaprojetos {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#tdprojetosimg {
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-collapse: separate;
+}
+
+#tdprojetos {
+    padding-left: 2%;
+    padding-bottom: 20px;
+    border-collapse: separate;
+    font-family: Open Sans;
+    font-size: 20px;
+    position: relative;
+    top: -15px;
+}
+
+.classimgprojetos {
+    height: 200px;
+}
+
+/* FIM_PROJETOS */
+
+/* CONTATO */
+
+#tbadesccontato {
+    text-align: left;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    border-collapse: separate;
+    font-family: Open Sans;
+    font-size: 20px;
+}
+
+#h1desccontato {
+    font-size: 50px;
+    line-height: 0;
+}
+
+#tddesccontato {
+    width: 100%;
+    padding-right: 10%;
+    border-collapse: separate;
+}
+
+#tbaformcontato {
+    width: 100%;
+    font-family: Open Sans;
+    font-size: 20px;
+}
+
+#tdparagrafos {
+    width: 80%;
+    padding-left: 10%;
+    border-collapse: separate;
+}
+
+#pformulariocontato1,
+#pformulariocontato2,
+#pformulariocontato3,
+#pformulariocontato4 {
+    width: 80%;
+    height: 50px;
+    text-align: left;
+    background-color: #ede1be;
+    font-size: 20px;
+    border-collapse: separate;
+    padding-top: 1px;
+}
+
+#pformulariocontato5 {
+    width: 80%;
+    height: 120px;
+    text-align: left;
+    background-color: #ede1be;
+    font-size: 20px;
+    border-collapse: separate;
+    padding-top: 1px;
+}
+
+#pformulariocontato6 {
+    width: 80%;
+    text-align: left;
+    background-color: #ede1be;
+    border-collapse: separate;
+    padding-top: 30px;
+    height: 40px;
+}
+
+#slcassunto {
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#txtnome {
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#email {
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#tel {
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#mensagem {
+    width: 400px;
+    height: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#enviar {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #3d58a1;
+}
+
+#tbacontatossite {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+hr {
+    width: 100%;
+    text-align: center;
+}
+
+#tdcontatossite {
+    width: 80%;
+    font-family: Open Sans;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.botaocontato {
+    text-decoration: none;
+    padding: 5px;
+    background-color: #3d58a1;
+    border-radius: 10px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    bottom: 50px;
+    left: -10px;
+    font-family: Open Sans;
+    font-weight: bold;
+}
+
+/* FIM_CONTATO */
+
+/* FOOTER */
+
+#imgfooter {
+    width: 100px;
+}
+
+.pfooter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+    margin-top: 0px;
+    position: relative;
+}
+
+/* FIM_FOOTER */
+
+/* GERAL */
+
+.backgroundyellow {
+    background-color: #ede1be;
+    width: 100%;
+}
+
+.quebralinha {
+    white-space: nowrap;
+}
+
+/* FIM_GERAL */
